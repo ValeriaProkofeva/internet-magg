@@ -1,0 +1,65 @@
+.CollectionCont{
+    width: 100vw;
+    height: 700px;
+    background-color: #CEC6C4;
+    display: flex;
+}
+
+.CollectionLeft{
+    background-image: url(/img/collLeft.webp);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 700px;
+}
+
+.CollectionRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RightBox{
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImgBox{
+    background-image: url(/img/collRight.webp);
+    width: 380px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.textH{
+    color: white;
+    font-size: 60px;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+}
+
+.textP{
+    width: 310px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: end;
+}
+
+.LeftTextBox{
+    width: 460px;
+    padding-left: 50px;
+}
+
+.textP1{
+    
+    color: white;
+    text-align: left;
+}

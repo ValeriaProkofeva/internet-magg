@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Body {
+    width: 100vw;
+    margin-bottom: 110px;
+}
+
+.Inner {
+    background-image: url(/img/SliderImg.webp);
+    width: 100vw;
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.InBox {
+    display: flex;
+    padding-top: 180px;
+    gap: 350px;
+    flex-direction: column;
+    height: 380px;
+    width: 545px;
+    margin: 0 auto;
+}
+
+.TextBox {
+    background-color: transparent;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.TextBox1 {
+    background-color: transparent;
+    font-family: "Cormorant", serif;
+    font-size: 30px;
+    color: #EAE9E8;
+}
+
+.TextBox2 {
+    font-family: "Cormorant", serif;
+    font-size: 60px;
+    color: #EAE9E8;
+
+}
+
+.TextBox3 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight:250 ;
+    color: #EAE9E8;
+}
+
+.Pages {
+    display: flex;
+    gap: 100px;
+    font-family: "Inter", sans-serif;
+    color: #EAE9E850;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.Page {
+    color: #EAE9E8;
+}

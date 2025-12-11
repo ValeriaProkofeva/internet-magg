@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Back {
+    width: 100vw;
+    height: 500px;
+    background-color: #254A5A;
+}
+
+.Inner {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.Tz {
+    font-size: 45px;
+    font-family: "Cormorant", serif;
+    color: #ffffff;
+}
+.Tv {
+    font-size: 90px;
+    font-family: "Cormorant", serif;
+    color: #ffffff;
+
+}
+.Ta {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+}
+.Photo{
+    margin-top: 45px;
+}

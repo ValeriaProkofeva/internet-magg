@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Body {
+    margin-top: 150px;
+    border-top: 1px solid #EAE9E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 310px;
+}
+
+.Inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    font-family: "Cormorant", serif;
+    color: #0F303F;
+    font-size: 30px;
+}
+.Line{
+    width: 250px;
+    height: 1px;
+    background-color: #0F303F;
+}
+.Navig{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    color: #B7C1C5 ;
+    font-family: "Inter", sans-serif;
+}

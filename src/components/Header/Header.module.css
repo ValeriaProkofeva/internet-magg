@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Body{
+    display: flex;
+    width: 100vw;
+}
+.HeaderCont{
+    width: 90vw;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Menu{
+    display: flex;
+    gap: 20px;
+}
+
+.Img{
+   width: 20px; 
+   height: 20px;
+}

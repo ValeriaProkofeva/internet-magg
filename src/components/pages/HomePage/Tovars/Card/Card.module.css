@@ -1,0 +1,64 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.CardImg{
+    width: 200px;
+    height: 335px;
+}
+
+.CardText{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardH{
+    color: #0F303F;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.CardH2{
+    width: 200px;
+    height: 40px;
+    color: #0F303F;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.CardH3{
+    width: 200px;
+    height: 220px;
+    color: #0F303F;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+.Price{
+    display: flex;
+    gap: 5px;
+}
+
+.CardPrice{
+    color: #979797;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.CardPriceAct{
+    color: #FD5454;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
